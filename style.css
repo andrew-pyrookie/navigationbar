@@ -1,0 +1,56 @@
+body {
+    font-family: Josefin Sans;
+}
+
+img {
+    float: left;
+    width: 169px;
+    height:149px;
+}
+
+nav {
+    height: 149px;
+    width: auto;
+}
+
+.title {
+    position: absolute;
+}
+div[title="title"] p {
+    text-shadow: 0 4px 8px rgba(39, 74, 33, 0.5);;
+    color: #274A21;
+    font-size: 48px;
+    margin-top: 45px;
+    margin-left: 238px;
+    font-weight: bold;
+   
+  }
+
+div[title="title"] h2 {
+    color: #274A21;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -60px;
+    margin-left: 268px;
+    text-shadow: 0 4px 8px rgba(39, 74, 33, 0.5);
+}
+
+.dot1 {
+    display: inline-block;
+    background-color: #274A21;
+    margin-top: 56px;
+    margin-left: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.dot2 {
+    display: inline-block;
+    background-color: #274A21;
+    margin-top: 56px;
+    margin-left: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

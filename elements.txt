@@ -1,0 +1,29 @@
+HTML elements:
+
+    <nav>: This element is used to define the navigational section of a web page.
+    <ul>: This element is used to define an unordered list.
+    <li>: This element is used to define a list item.
+    <a>: This element is used to create a hyperlink.
+
+HTML Attributes :
+
+    class or id : Assign unique identifir or class name to specific elements for CSS and Jvs manipulation
+    href : Specify the target URL for navigation link.
+    img ; 
+
+===================================================================================================
+
+CSS attributes:
+
+    display: This attribute is used to control how an element is displayed.
+    float: This attribute is used to float an element to the left or right of its container.
+    width: This attribute is used to set the width of an element.
+    height: This attribute is used to set the height of an element.
+    background-color: This attribute is used to set the background color of an element.
+    color: This attribute is used to set the text color of an element.
+    font-size: This attribute is used to set the font size of an element.
+    font-family: This attribute is used to set the font family of an element.
+    text-decoration: Apply styles to control the appearance of the links.
+    padding and margin : Adjust the spacing around the navigation links.
+    border: create borders arround the navigation elements.
+    hover pseudo-class ; Apply styles when hovering over a navigation item.
