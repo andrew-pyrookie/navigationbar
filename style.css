@@ -54,3 +54,10 @@ div[title="title"] h2 {
     height: 25px;
     border-radius: 50%;
 }
+
+a {
+    color: #274A21;
+    font-weight: 900;
+    text-decoration: none;
+    
+}
