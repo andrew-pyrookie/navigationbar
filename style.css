@@ -5,22 +5,23 @@ body {
 img {
     float: left;
     width: 169px;
-    height:149px;
+    height:160px;
 }
 
 nav {
     height: 149px;
     width: auto;
+    position: fixed;
 }
 
 .title {
-    position: absolute;
+    float: left;
 }
 div[title="title"] p {
     text-shadow: 0 4px 8px rgba(39, 74, 33, 0.5);;
     color: #274A21;
     font-size: 48px;
-    margin-top: 45px;
+    margin-top: 10px;
     margin-left: 238px;
     font-weight: bold;
    
@@ -55,9 +56,46 @@ div[title="title"] h2 {
     border-radius: 50%;
 }
 
-a {
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    float: left;
+    margin-left: 238px;
+    line-height: 10px;
+}
+
+li a {
     color: #274A21;
     font-weight: 900;
     text-decoration: none;
-    
+    padding: 8px;
+}
+
+li {
+    display: block;
+    float: left;
+
+}
+
+li :hover {
+    color: #397c2d;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.active {
+    color: #397c2d;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.left {
+    float: right;
+    right: 0;
 }
