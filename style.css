@@ -59,8 +59,6 @@ div[title="title"] h2 {
 ul {
     list-style-type: none;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
     width: 100%;
     align-items: center;
     float: left;
@@ -73,6 +71,7 @@ li a {
     font-weight: 900;
     text-decoration: none;
     padding: 8px;
+    transition: font-size 0.3s;
 }
 
 li {
